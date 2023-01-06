@@ -33,8 +33,7 @@ public class MainFacturas {
 		Scanner teclado = new Scanner(System.in);
 		String opcion;
 		do {
-			System.out
-					.println("Introduce L para añadir linea a la factura y I para inprimir la factura con sus lineas");
+			System.out.println("Introduce L para añadir linea a la factura y I para inprimir la factura con sus lineas");
 			opcion = teclado.nextLine();
 			if (opcion.toUpperCase().equals("L")) {
 				introducirLinea(factura);
