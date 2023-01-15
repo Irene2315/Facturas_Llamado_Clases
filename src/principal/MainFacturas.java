@@ -101,7 +101,6 @@ public class MainFacturas {
 		lineaFactura.setCantidad(cantidad_linea);
 
 		factura.addLinea(lineaFactura);
-
 	}
 
 }
